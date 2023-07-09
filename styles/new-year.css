@@ -115,3 +115,32 @@ font-size: 25px;
 font-weight: 900;
 margin-bottom: 0px;
 }
+.positive-section{
+    /* background: url('../images/watch.png'), ; */
+    /* background-position: cover; */
+    background:  linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url('../images/watch.png');
+    max-height: 750px;
+    background-repeat: no-repeat;
+    padding: 45px 40px 45px 40px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+  
+}
+.section-title-container{
+
+}
+.section-title{
+    color: #FFF;
+font-size: 35px;
+font-weight: 900;
+
+}
+.button{
+    border-radius: 5px;
+background: #FFF;
+border: none;
+padding: 17px 30px 17px 30px;
+font-size: 20px;
+color: #F15B22;
+
+}
