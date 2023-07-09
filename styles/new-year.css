@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    background: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    height: 730px;
+    text-align: right;
+    /* padding: 300px; */
+    /* background-size: cover; */
+}
+.banner{
+    padding: 180px;
+
+}
+.banner-title{
+    color:  #151414;
+font-size: 65px;
+font-weight: 800;
+
+}
+.banner-description{
+    color: #444343;
+font-size: 16px;
+font-weight: 400;
+}
+.button-one{
+    border-radius: 5px;
+background: #F15B22;
+border: none;
+padding: 17px 30px 17px 30px;
+font-size: 20px;
+color: white;
+
+}
