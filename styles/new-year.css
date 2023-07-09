@@ -12,13 +12,13 @@ body{
     /* background-size: cover; */
 }
 .banner{
-    padding: 180px;
+    padding: 170px 300px 100px 70px;
 
 }
 .banner-title{
     color:  #151414;
-font-size: 65px;
-font-weight: 800;
+font-size: 55px;
+font-weight: 900;
 
 }
 .banner-description{
@@ -34,4 +34,84 @@ padding: 17px 30px 17px 30px;
 font-size: 20px;
 color: white;
 
+}
+/* ///////////////////////////////////////////////// */
+
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+main section{
+    margin-top: 100px;
+}
+ 
+.failure-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    background: #FFF;
+
+}
+.failure-title{
+    color:  #151414;
+font-size: 40px;
+font-weight: 900;
+margin-left: 30px;
+}
+.failure-description{
+color:  #444343;
+font-size: 16px;
+font-weight: 400;
+margin-left: 30px;
+
+}
+.failure-list{
+color:  #444343;
+font-size: 16px;
+font-weight: 400;
+}
+.failurs{
+    padding-top: 80px;
+}
+.failure-list li{
+    list-style: none
+
+}
+.failure-list li i{
+    color: #16D887;
+    margin: 10px;
+}
+.failure-container img{
+    width: 520px;
+}
+/* //////////////////////////// */
+.my-plan-section{
+    padding: 50px;
+
+}
+.my-plan-title{
+    text-align: center;
+    color: #151414;
+font-size: 40px;
+font-weight: 900;
+margin-bottom: 100px;
+
+}
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    text-align: center;
+}
+.plans-container img{
+    width: 90px;
+}
+.plan-title{
+    color: #151414;
+font-size: 25px;
+font-weight: 900;
+margin-bottom: 0px;
 }
